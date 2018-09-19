@@ -35,7 +35,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Phil',
-		photo: '',
+		photo: 'https://vignette.wikia.nocookie.net/rugrats/images/b/b4/Phil_DeVille.png/revision/latest?cb=20130515193923',
 		scores: [
 			'2',
 			'3',
@@ -51,7 +51,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Lil',
-		photo: 'https://img00.deviantart.net/8ad2/i/2012/171/f/a/roger_klotz_and_stinky_by_luthien_black-d2oa0qd.jpg',
+		photo: 'https://vignette.wikia.nocookie.net/rugrats/images/d/d7/Lil_DeVille.png/revision/latest?cb=20130515193908',
 		scores: [
 			'5',
 			'3',
@@ -83,7 +83,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Susie',
-		photo: 'http://img.mindbodygreen.com/image/upload/c_limit,w_738,f_auto/ftr/Miss-Piggy-large-tonya-312.jpg',
+		photo: 'https://vignette.wikia.nocookie.net/nickelodeon/images/f/f1/Susie_Carmichael.png/revision/latest?cb=20150411032220',
 		scores: [
 			'1',
 			'1',
@@ -99,7 +99,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Dill',
-		photo: 'https://vignette.wikia.nocookie.net/doug/images/8/8c/581278-image_2_quailman_large.jpeg/revision/latest?cb=20111006235840',
+		photo: 'https://vignette.wikia.nocookie.net/rugrats/images/0/04/Dil_Pickles.png/revision/latest?cb=20130515182221',
 		scores: [
 			'5',
 			'4',
@@ -114,8 +114,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Raptar',
-		photo: 'https://vignette.wikia.nocookie.net/doug/images/e/e3/Beebe_Bluff.png/revision/latest?cb=20180516112344',
+		name: 'Reptar',
+		photo: 'https://vignette.wikia.nocookie.net/rugrats/images/4/4c/Reptar.png/revision/latest?cb=20130515193534',
 		scores: [
 			'5',
 			'2',
@@ -131,7 +131,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Spike',
-		photo: 'https://vignette.wikia.nocookie.net/doug/images/0/08/Porkchop.png/revision/latest?cb=20180531191333',
+		photo: 'https://vignette.wikia.nocookie.net/rugrats/images/4/40/Spike.svg/revision/latest?cb=20140515105420',
 		scores: [
 			'5',
 			'3',
@@ -147,7 +147,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Kimi',
-		photo: 'https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/connie-benge-dougs-1st-movie-3.9.jpg',
+		photo: 'https://vignette.wikia.nocookie.net/rugrats/images/d/d5/Kimi_Finster2.png/revision/latest?cb=20150814063805',
 		scores: [
 			'2',
 			'5',
