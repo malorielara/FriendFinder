@@ -25,8 +25,8 @@
     <!-- adding the survey question fields -->
     <div class="container">
         <h2>Survey Questions:</h2>
-
         <h3><strong>About You!</strong></h3>
+        <hr>
         <h4>Name: </h4>
         <input type="text" id="name" class="form-control" required>
 
@@ -34,6 +34,7 @@
         <input type="text" id="photo" class="form-control" required>
 
     <br>
+    <hr>
 
     <h3><strong>Question #1:</strong></h3>
     <h4>I prefer to watch movies over tv shows.</h4>
@@ -145,6 +146,9 @@
         <option value="5">5 (Strongly Agree)</option>
     </select>
 
+    <br>
+    <br>
+
     <!-- submit button -->
     <button type="submit" class="btn btn-primary  btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
             aria-hidden="true"></i>Submit</button>
@@ -172,9 +176,27 @@
         for (var selector in config) {
             $(selector).chosen(config[selector]);
         }
-
+        
+        // when the submit button is clicked...
         $("#submit").on("click", function(event) {
-            event.preventDefault();
+            event.preventDefault(); 
+
+            // validation form
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function() {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+
+                $(".chosenSelect").each(function () {
+                    if($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                return isValid;
+            }
         })
     </script>
 
