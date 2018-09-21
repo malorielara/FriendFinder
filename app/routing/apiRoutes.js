@@ -27,7 +27,7 @@ module.exports = function (app) {
             if (diff < totalDiff) {        
                 totalDiff = diff;
                 maName = friends[i].name;
-                mImg = friends[i].name;
+                mImg = friends[i].photo;
             }
         }
 
